@@ -1,0 +1,212 @@
+.fire-B{
+    background-color: #E35825;
+}
+
+.grass-B{
+    background-color: #ABDAC6;
+}
+
+.water-B{
+    background-color: #133258;
+}
+
+.normal-B{
+    background-color: #7C3F4C;
+}
+
+.bug-B{
+    background-color: #3BB039;
+}
+
+.poison-B{
+    background-color: #A564E3;
+}
+
+.rock-B{
+    background-color: #8D8D94;
+}
+
+.dark-B{
+    background-color: #0D1211;
+}
+
+.fairy-B{
+    background-color: #C23867;
+}
+
+.ground-B{
+    background-color: #9C6614;
+}
+
+.ice-B{
+    background-color: #C4EBFB;
+}
+
+.electric-B{
+    background-color: rgb(250, 250, 33);
+}
+
+.psychic-B{
+    background-color: rgb(202, 202, 63);
+}
+
+.steel-B{
+    background-color: #5E736C;
+}
+
+.fighting-B{
+    background-color: #96402A;
+}
+
+.ghost-B{
+    background-color: rgb(66, 64, 64);
+}
+
+.dragon-B{
+    background-color: #A2BEC1;
+}
+
+.flying-B{
+    background-color: mediumseagreen;
+}
+
+.pokedesInfo{
+    margin-left: 100px;
+}
+
+.card-father{
+    margin: 5%;
+    width: 90vh;
+    float: left;
+    margin-right: 0;
+    
+}
+
+.pokemonId{
+    width: 90vh;
+    margin-top: 15%;
+    
+    min-height: 50vh;
+    border-radius: 5px;
+}
+
+.pokemonId img{
+    width: 50%;
+    margin-top: -25%;
+}
+
+.pokemonId h2{
+    padding-top: 3%;
+}
+
+.weight-height{
+    justify-content: space-around;
+}
+
+.type{
+    width: 50%;
+    margin: 5px;
+    margin-top: 15px;
+    margin-left: 0;
+    min-height: 20vh;
+    border-radius: 5px;
+}
+
+
+.cards{
+    display: flex;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center{
+    justify-content: center;
+}
+
+.card-1{
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-2{
+    width: 40%;
+    background-color:white;
+    border-radius: 5px;
+    color: black;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.color-white{
+    background-color: white;
+    color: black;
+}
+
+.abilities{
+    width: 50%;
+    margin: 5px;
+    margin-top: 15px;
+    min-height: 20vh;
+    border-radius: 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.movements{
+    float: left;
+    width: 50vh;
+    margin-top: 11.5%;
+    min-height: 73vh;
+    max-height: 73vh;
+    margin-left: 5%;
+    overflow: hidden;
+    overflow-y:scroll;
+    border-radius: 5px;
+}
+
+.movements::-webkit-scrollbar{
+    width: 7px;
+}
+
+.movements::-webkit-scrollbar-thumb{
+    background-color: #0D1211;
+}
+
+.margin{
+    margin-top: 20px;
+}
+
+.cards-moves{
+    display: flex;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center{
+    justify-content: center;
+}
+
+.card-move{
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

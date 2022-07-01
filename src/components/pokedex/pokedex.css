@@ -1,0 +1,228 @@
+.App{
+    background-image: url(../home/img/img-dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1400px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    min-height: 20vh;
+    background-color: black;
+}
+.header-2{
+    min-height: 13vh;
+    background-color: rgba(221, 26, 26, 1);
+}
+
+.title{
+    color: white;
+}
+
+.input{
+    width: 30%;
+    height: 40px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.nameType{
+    font-size: 40px;
+    margin: 20px;
+    margin-top: 5px;
+    color: white;
+}
+
+.input:hover{
+    background-color: rgb(210, 208, 208);
+}
+
+.width-select{
+    width: 10%;
+}
+
+
+
+.cards_pokemon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_pokemon{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    background-color: blue;
+    border-radius: 12px;
+}
+
+.card_card{
+    width: 230px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    margin-top: 90px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.card_pokemon img {
+    width: 50%;
+    margin-top: -60px;
+}
+
+.flex_statistics{
+    display: flex;
+    justify-content: space-around;
+}
+
+.color_gray{
+    color:gray
+}
+
+/*------> Color by Type <---------*/
+
+.fire{
+    background-color: #E35825;
+    color: #E35825;
+}
+
+.grass{
+    background-color: #ABDAC6;
+    color: #74ac94;
+}
+
+.water{
+    background-color: #133258;
+    color: #133258;
+}
+
+.normal{
+    background-color: #7C3F4C;
+    color: #7C3F4C;
+}
+
+.bug{
+    background-color: #3BB039;
+    color: #3BB039;
+}
+
+.poison{
+    background-color: #A564E3;
+    color: #A564E3;
+}
+
+.rock{
+    background-color: #8D8D94;
+    color: #8D8D94;
+}
+
+.dark{
+    background-color: #0D1211;
+    color: #0D1211;
+}
+
+.fairy{
+    background-color: #C23867;
+    color: #C23867;
+}
+
+.ground{
+    background-color: #9C6614;
+    color: #9C6614;
+}
+
+.ice{
+    background-color: #C4EBFB;
+    color: #C4EBFB;
+}
+
+.electric{
+    background-color: rgb(250, 250, 33);
+    color: rgb(250, 250, 33);
+}
+
+.psychic{
+    background-color: rgb(202, 202, 63);
+    color: rgb(202, 202, 63);
+}
+
+.steel{
+    background-color: #5E736C;
+    color: #5E736C;
+}
+
+.fighting{
+    background-color: #96402A;
+    color: #96402A;
+}
+
+.ghost{
+    background-color: rgb(66, 64, 64);
+    color: rgb(66, 64, 64);
+}
+
+.dragon{
+    background-color: #A2BEC1;
+    color: #A2BEC1;
+}
+
+.flying{
+    background-color: mediumseagreen;
+    color: mediumseagreen;
+}
+
+/*-------->Pokemon by id<---------*/
+
+
+
+/*----->pigina de navegacion<-----*/
+
+.pagination-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: max-content;
+    margin: 0 auto;
+  }
+  .pagination-number-container{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-left: 0;
+  }
+  .pagination-prev-next{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 26, 26, 1);
+    border-radius: 8px;
+  }
+  .page-number {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .page-active{
+    background-color: rgba(221, 26, 26, 1);
+  }
+
+
+
+
+
+
+
